@@ -1,0 +1,9 @@
+#company salaries
+salary=int(input("Enter employee's salary"))
+years=int(input("Enter employee's working years"))
+if(years>10):
+     print("net bonus=",salary+(salary*0.1))
+elif(years>=6 and years <=10):
+    print("net bonus+",salary+(salary*0.08))
+else:
+    print("net bonuys=",salary+(salary*0.05))
